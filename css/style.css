@@ -164,47 +164,34 @@ padding: 100px 0;
     background-color: #fff;
 }
 
-.filter a{
-  color: #ffffff;  
-  border: 1px solid #ffffff;
-  padding: 9px 18px;
-  display: block    ;
-}
-.filter li{
-    display: inline-block;
-    padding: 10px;
 
-}
-.filter .current{
-    background-color:rgb(16, 110, 97) ;
-    color: #fff;
-}
-.filter{
-    text-align: center;
-    width: 100%;
-}
+
 .section .heading h2{
     text-align: center;
     padding-bottom: 40px;
     width: 100%;
+    
 }
 /*styling isotope items in portfolio*/
 .items li{
     display: inline-block;
     padding: 5px;
 }
-
 .itemsContainer{
     width: 100%;
+    text-align: center;
+    margin: auto;
+    
 }
-   
 .items li img{
     width: 100%;
+    
 }
 .items .item{
     position: relative;
     display: block;
     overflow: hidden;
+    justify-content: center;
 }
 .items .icons{
     position:absolute;
@@ -220,6 +207,9 @@ padding: 100px 0;
     color: white;
     font-size: 20px;
     margin-top: 9px;
+}
+.items{
+    padding: 0;
 }
 .copyrightSection{
     background-color: #000;
@@ -255,3 +245,5 @@ width: 100%;
     background: url(../img/icons/menu.png);
     background-size: 100%;
 }
+
+

@@ -1,6 +1,6 @@
 $(document).ready(function()    {
-    
-     $(".items").isotope({
+
+    $(".items").isotope({
         filter:"*",
         animationOptions:{
             duration:1500,
@@ -8,6 +8,7 @@ $(document).ready(function()    {
             queue: false
         }
     });
+  
 
     $('#slides').superslides({
     animation: "fade",
@@ -26,6 +27,9 @@ $(document).ready(function()    {
     $('.owl-carousel').owlCarousel({
         loop:true,
         items: 4,
+        autoplay:true,
+        autoplaySpeed:1000,
+        autoplayTimeout:1500,
         responsive:{
             0:{
                 items:1
@@ -41,6 +45,8 @@ $(document).ready(function()    {
             }
         }
     })
+
+
 
 /*Pie Chart animation begins on scroll to section*/
     var skillsTopOffset = $(".skillsSection").offset().top;
