@@ -193,11 +193,9 @@ padding: 100px 0;
     display: inline-block;
     padding: 5px;
 }
-@media all and (min-width:769px){
+
 .itemsContainer{
     width: 100%;
-    margin-left: 115px;
-    }
 }
    
 }
