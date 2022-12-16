@@ -5,7 +5,7 @@ $(window).on("load", function() {
 	});
 
 
-    $(".items").isotope({
+    	$(".items").isotope({
         filter:"*",
         animationOptions:{
             duration:1500,
