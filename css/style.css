@@ -195,7 +195,8 @@ padding: 100px 0;
 }
 .itemsContainer{
     width: 100%;
-    margin-left: 115px;
+    margin-left: 3%;
+    position: relative;
 }
 .items li img{
     width: 100%;
